@@ -1,0 +1,25 @@
+main{
+    max-width: 1500px;
+    margin: auto;
+    border: 1px solid gray;
+    padding: 2px;
+}
+section{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    margin-bottom: 10px;
+    text-align: center;
+}
+article{
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    text-align: center;
+}
+img{
+    width: 50%;
+}
+@media screen and(max-width="800px"){
+    img{
+        width: 50%;
+    }
+}
